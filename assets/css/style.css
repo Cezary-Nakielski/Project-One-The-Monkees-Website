@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Musicals';
+    src: url('../fonts/Musiclals.woff2') format('woff2'),
+         url('../fonts/Musicals.woff') format('woff'),
+         url('../fonts/Musicals.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Musicals', Arial, sans-serif;
+}
