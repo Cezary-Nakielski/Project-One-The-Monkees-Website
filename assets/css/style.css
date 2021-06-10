@@ -5,6 +5,12 @@
          url('../fonts/Musicals.ttf') format('truetype');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: 'Musicals', Arial, sans-serif;
 }
