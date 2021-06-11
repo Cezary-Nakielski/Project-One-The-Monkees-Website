@@ -61,3 +61,30 @@ header {
 #newsletter .btn {
     margin-bottom: 16px;
 }
+
+/* Landing View */
+
+#landing {
+    background-color: #d49e77 ;
+}
+
+#landing h1 {
+    font-size: 7rem;
+    letter-spacing: .25rem;
+    padding: 2rem 0 0.9rem;
+}
+
+#landing img {
+    border-radius: 5px;
+}
+
+#landing div div {
+    padding: .8rem;
+    margin: 0 auto;
+    
+}
+
+#landing div div article {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 2rem;
+}
