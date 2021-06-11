@@ -104,3 +104,21 @@ header {
     height: 850px;
     width: 100%;
 }
+
+/* Availability */
+
+#availability {
+    background-image: url("../images/img-availability.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 850px;
+    width: 100%;
+}
+
+#availability-note {
+    color: #4fdd08;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 50%;
+}
