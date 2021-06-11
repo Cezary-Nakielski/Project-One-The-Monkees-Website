@@ -14,3 +14,21 @@
 body {
     font-family: 'Musicals', Arial, sans-serif;
 }
+
+/* Header */
+
+header {
+    background-color: #7d9fba;
+}
+
+#logo {
+    width: 227px;
+    height: 110px;
+    padding: 0.8rem;
+}
+
+.social-links a {
+    color: #000;
+    font-size: 3rem;
+    text-decoration: none;
+}
