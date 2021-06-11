@@ -15,7 +15,7 @@ body {
     font-family: 'Musicals', Arial, sans-serif;
 }
 
-            /* Header */
+/* Header */
 header {
     background-color: #7d9fba;
 }
@@ -63,7 +63,6 @@ header {
 }
 
 /* Landing View */
-
 #landing {
     background-color: #d49e77 ;
 }
@@ -90,23 +89,20 @@ header {
 }
 
 /* The Band */
-
 #the-band {
     background-color: #97aa8e;    
 }
 
 /* The Music */
-
 #the-music {
     background-image: url("../images/img-themusic.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 850px;
     width: 100%;
 }
 
 /* Availability */
-
 #availability {
     background-image: url("../images/img-availability.jpg");
     background-position: center;
@@ -121,4 +117,26 @@ header {
     font-size: 2rem;
     margin: 0 auto;
     width: 50%;
+}
+
+/* Contact Us */
+
+#contact-us {
+    background-image: url("../images/img-contact.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 850px;
+    width: 100%;
+}
+
+#contact-us h2 {
+    color: #e80815;
+}
+
+
+/* Heading */
+h2 {
+    font-size: 5rem;
+    letter-spacing: .25rem;
+    padding: 2rem 0 0.9rem;
 }

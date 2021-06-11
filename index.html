@@ -15,13 +15,19 @@
 </head>
 
 <body>
+
+    <!-- HEADER-->
     <header class="container-fluid">
         <div class="row">
+
+
             <div class="col">
                 <a href="index.html">
                     <img src="assets/images/img-logo.png" alt="The Monkees band logo" id="logo">
                 </a>
             </div>
+
+
             <div class="col social-links my-auto">
                 <a href="https://en-gb.facebook.com/" target="_blank" rel="noopener">
                     <i class="fab fa-facebook-square"></i>
@@ -36,6 +42,8 @@
                     <i class="fab fa-youtube-square"></i>
                 </a>
             </div>
+        
+
             <div id="newsletter" class="col my-auto">
                 <h5 id="newsletter-header">Newsletter</h5>
                 <form method="GET">
@@ -44,6 +52,8 @@
                     <input id="newsletter-btn" class="btn btn-success" type="submit" value="Sign Up!">
                 </form>
             </div>
+
+
             <div class="col">
                 <nav>
                     <a href="#">The Band</a>
@@ -55,6 +65,7 @@
         </div>
     </header>
 
+<!--LANDING VIEW SECTION-->
     <section id="landing" class="container-fluid text-center">
         <h1>The Monkees</h1>
         <div class="row">
@@ -74,12 +85,13 @@
         </div>
     </section>
 
+<!-- THE BAND SECTION -->
     <section id="the-band" class="container-fluid ">
         <div class="row d-flex justify-content-center">
             <div class="col-3 img-left photo">
                 <img src="assets/images/img-peter.jpg" alt="A photograph of Peter Tork">
             </div>
-            <div class="col-3">
+          <div class="col-3">
                 <article class="article-right">
                     Peter Halsten Thorkelson[1] (February 13, 1942 – February 21, 2019), known professionally as Peter
                     Tork, was an American musician, composer, and actor who was best known as the keyboardist and bass
@@ -130,6 +142,7 @@
         </div>
     </section>
 
+    <!-- THE MUSIC SECTION -->
     <section id="the-music" class="container-fluid d-flex align-items-center">
         <div class="row d-flex justify-content-center">
             <div class="col-4">
@@ -159,6 +172,7 @@
         </div>
     </section>
 
+    <!-- AVAILABILITY SECTION -->
     <section id="availability" class="container-fluid d-flex align-items-center">
         <div class="row d-flex justify-content-center">
         <div class="col">
@@ -166,6 +180,8 @@
             <p>Check out our availability using the calendar and if you wish to book us for an event, use the form below to contact us!</p>
         </div>
         </div>
+        
+        
         <div class="col">
             <div w-type="calendar" w-tmapikey="pLOeuGq2JL05uEGrZG7DuGWu6sh2OnMz" w-googleapikey="YOUR_GOOGLE_API_KEY"
             w-keyword="" w-theme="calendar" w-colorscheme="light" w-width="298" w-height="400" w-size="25" w-border="1"
@@ -174,11 +190,30 @@
             w-proportion="standart" w-latlong="53.3562843,-6.2586765"></div>
         </div>
         </div>
-        
+            </section>
+        <!-- CONTACT US SECTION -->
+
+    <section id="contact-us" class="container-fluid d-flex align-items-center">
+        <div class="row d-flex justify-content-center">
+            <div class="col">
+        <h2 id="contact-heading">Contact us</h2>
+    </div>
+    </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col">
+        <form method="GET">
+            <input class="form-control" type="text" name="name" placeholder="Your full name"
+            required></br>
+            <input class="form-control" type="email" name="contact-email" placeholder="Your E-mail address"
+                required></br>
+                <input class="form-control" type="text" name="message" placeholder="Your message" required><br>
+            <input class="btn btn-success" type="submit" value="Send!">
+        </form>
+    </div>
+</div>
     </section>
-    <section>
-        Contact us section - Contact form
-    </section>
+
+    <!-- FOOTER -->
     <footer>
         Footer - Privacy policy link, Terms of use link, Copyright
     </footer>
