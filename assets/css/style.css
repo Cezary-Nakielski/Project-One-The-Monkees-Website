@@ -15,18 +15,19 @@ body {
     font-family: 'Musicals', Arial, sans-serif;
 }
 
-/* Header */
-
+            /* Header */
 header {
     background-color: #7d9fba;
 }
 
+/* Logp */
 #logo {
     width: 227px;
     height: 110px;
     padding: 0.8rem;
 }
 
+/* Social media links */
 .social-links a {
     color: #000;
     display: inline-block;
@@ -38,4 +39,19 @@ header {
 
 .social-links a:hover {
     color: #e80815;
+}
+
+/* Newsletter form */
+#newsletter {
+    text-align: center;
+}
+
+#newsletter-header {
+    color: #e80815;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#newsletter .btn {
+    margin-bottom: 16px;
 }
