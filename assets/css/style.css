@@ -37,6 +37,11 @@ body {
     text-decoration: none;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 /* Header */
 .menu, header {
     background-color: #7d9fba;
