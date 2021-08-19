@@ -91,7 +91,8 @@ body {
 
 /* Landing View */
 #landing {
-    background-color: #d49e77 ;
+    background-color: #d49e77;
+    padding-bottom: 3rem;
 }
 
 #landing h1 {
@@ -116,7 +117,8 @@ body {
 
 /* The Band */
 #the-band {
-    background-color: #97aa8e;    
+    background-color: #97aa8e;
+    padding-bottom: 3rem;
 }
 
 /* .img-left, img-right, article-left, article-right {
