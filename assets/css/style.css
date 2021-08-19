@@ -15,8 +15,30 @@ body {
     font-family: 'Musicals', Arial, sans-serif;
 }
 
+/* Navigation Bar */
+.menu {
+    font-size: 150%;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.menu ul {
+    margin-bottom: 0;
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.menu a {
+    color: #e80815;
+    text-decoration: none;
+}
+
 /* Header */
-header {
+.menu, header {
     background-color: #7d9fba;
 }
 
