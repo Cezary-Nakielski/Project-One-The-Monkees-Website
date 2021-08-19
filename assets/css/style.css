@@ -173,7 +173,13 @@ video {
     width: 100%;
 }
 
-/* Heading */
+/* Footer */
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Headings */
 h2 {
     color: #e80815;
     text-align: center;
