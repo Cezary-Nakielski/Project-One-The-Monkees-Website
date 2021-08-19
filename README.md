@@ -177,5 +177,127 @@ The menu changes into a burger menu on mobile devices.
 
 ### Wireframes
 
-Wireframes for the project can be found <a href="...." target="_blank"> here. </a>
+Wireframes for the project can be found <a href="https://github.com/Cezary-Nakielski/Project-One-The-Monkees-Website/blob/master/assets/wireframes/The%20Monkees%20Website.pdf" target="_blank"> here. </a>
 
+
+##  Surface
+
+* Colours - Retro colours palette theme
+* Typography - Musicals font by ©2000 Brain Eaters Font Co./Brad O. Nelson.
+* Images - provided by Code Institute
+* Logo - image downloaded from [imgbin.com](https://imgbin.com/png/fTucBHaP/the-monkees-logo-music-head-film-png), provided by lp3
+* Audio player x 4 - mp3 tracks provided by Code Institute
+* Video player - video clip provided by Code Institute
+* Major elements/sections from top to bottom: Nav Bar, Sections (The Band, The Music, Availability, Contact), Footer
+
+
+## Features
+
+### Existing Features
+
+- Social media logo icons - allow users to visit the band's social media pages, by having them press the icons. The pages will be opened in a new tab
+
+- Embedded audio players - allow users to listen to the band's music, by pressing the play button.
+
+- Embedded video player  - allows users to watch the band's video clip, by pressing the play button.
+
+- Contact form - allows users to contecct the band/book the band for an event, by having them fill out: name, e-mail address, message input fields and press send button.
+
+- Privacy Policy and Terms of Use hyperlink text links take the user to external websites 
+
+### Features Left to Implement
+
+- Scrollspy functionality for the menu
+- Multiple use of parallax effect across the website
+- Landscape view on tablet and mobile devices
+- The Calendar in the "Availability" section could use actual information about the future events from a website like [www.ticketmaster.com](https://www.ticketmaster.com/the-monkees-tickets/artist/735678) through the use of an API
+
+## Technologies Used
+
+- [HTML]
+- [CSS]
+- [Bootstrap]
+
+## Testing
+
+Manual Testing Implemented:
+
+- Continuous testing with Chrome Development Tools during development:
+    - Reviewing the look and "feel" of the web page
+    - Testing responsiveness to changes in screen size
+
+- Testing that all features work properly (on all screen sizes):
+        - Logo - when clicked/interacted with - take the user tot the top of the page.
+        - Navigation menu buttons - when clicked/interacted with - take the user to a desired section of the page.
+        - Hyperlinks - social media brand logo icons in the navigation bar - open desired pages in a new tab.
+        - Hyperlinks in the footer take the user to external websites.
+
+- Testing newsletter sign-up section & contact form:
+    - Submit button works correctly.
+    - Input fields are connected properly.
+    - Error messages diplay correct information when input errors are detected.
+    - The form is submitted only when all required input fields are filled in and are filled in with correct format input.
+
+- Navigation menu stays fixed to the top of the screen at all times, on all screen sizes.
+
+- Audio and video players work correctly.
+
+- All text is readible on mobile, tablet and desktop screens and is not obscured by images or colors.
+
+Official W3C validator services have been used to check the validity of the code, both HTML & CSS.
+
+All goals of the users presented earlier in the User Stories section of this README can be achieved upon proper wiring of the newsletter form, calendar and contact form, which is out of the scope of this project.
+
+- Tested using [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - reslt: Mobile Friendly 
+- Tested using [Webpagetest](https://www.webpagetest.org/) 
+
+## Deployment
+
+The project is hosted on GitHub Pages. The repository can be found <a href="https://github.com/Cezary-Nakielski/Project-One-The-Monkees-Website" target="_blank"> here</a>. It is deployed from master branch the following way:
+1. In the GutHub repository select Settings.
+2. In the GitHub Pages section select Master Branch as a Source.
+
+To run locally, type: git clone https://git@github.com:Cezary-Nakielski/Project-One-The-Monkees-Website.git into your IDE terminal.
+
+## Credits
+
+### Content
+
+- Text for the landing view section was copied from the [Wikipedia article "The Monkees"](https://en.wikipedia.org/wiki/The_Monkees)
+- Text for section "The Band" was copied from:
+    - [Wikipedia article "Micky Dolenz"](https://en.wikipedia.org/wiki/Micky_Dolenz)
+    - [Wikipedia article "Peter Tork"](https://en.wikipedia.org/wiki/Peter_Tork)
+    - [Wikipedia article "Michael Nesmith"](https://en.wikipedia.org/wiki/Michael_Nesmith)
+    - [Wikipedia article "Davy Jones (musician)"](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
+
+
+### Media
+- Audio files, video files and photos of individual band members used on this site were provided by Code Institute
+- Image used for the background of The Music section was provided by Code Institute
+- Image used for the background of Landing View section obtained from - KING COLLECTION/PHOTOSHOT/GETTY IMAGES through the use of Google Advanced Image Search
+- Image used for the background of Availability section was obtained from [www.flickr.com](https://www.flickr.com/photos/tonyshek/46759964564/in/album-72157677433451397/), provided by GabboT
+- Image used for the background of Contact section obtained from Michael Ochs Archives through the use of Google Advanced Image Search
+- Logo image has been downloaded from [imgbin.com](https://imgbin.com/png/fTucBHaP/the-monkees-logo-music-head-film-png), provided by lp3
+
+
+### Acknowledgements
+
+- I received inspiration for this project from lessons and material provided by Code Institute
+
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses fonts provided by Google Fonts.
+
+- [Font Awesome](https://fontawesome.com/)
+    - The project uses icons provided by Font Awasome.
+
+- Information and ideas used in building this website were obtained from:
+    - [www.w3schools.com/](https://www.w3schools.com/)
+    - [www.stackoverflow.com](https://stackoverflow.com)
+    - [www.developer.mozilla.org](https://developer.mozilla.org/en-US/)
+
+- w3c Validator services:
+    - [HTML](https://validator.w3.org/)
+    - [CSS](https://jigsaw.w3.org/css-validator/)
+
+
+* This website was made for educational purposes
