@@ -29,7 +29,7 @@ Users of the site can use links to visit the band's social media sites, listen t
 ## Demo
 
 
-To access live demo, click <a href="https://www...com/" target="_blank"> here. </a>
+To access live demo, click <a href="https://cezary-nakielski.github.io/Project-One-The-Monkees-Website/" target="_blank"> here. </a>
 
 
 # UX
